@@ -1,0 +1,10 @@
+
+SELECT * FROM employees;
+
+SELECT emp_name, salary FROM employees;
+
+SELECT DISTINCT dept_id FROM employees;
+
+SELECT emp_name FROM employees WHERE salary > 55000;
+
+SELECT emp_name FROM employees ORDER BY salary DESC;
