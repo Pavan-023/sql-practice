@@ -1,0 +1,22 @@
+INSERT INTO departments VALUES
+(1, 'HR'),
+(2, 'IT'),
+(3, 'Finance');
+
+INSERT INTO employees VALUES
+(1, 'Amit', 50000, '2023-01-10', 2, NULL),
+(2, 'Sara', 60000, '2023-02-15', 2, 1),
+(3, 'John', 45000, '2023-03-20', 1, NULL),
+(4, 'Neha', 70000, '2023-04-25', 3, 2),
+(5, 'Raj', 55000, '2023-05-30', 3, 2);
+
+INSERT INTO customers VALUES
+(1, 'Ravi', 'ravi@gmail.com'),
+(2, 'Kiran', 'kiran@gmail.com'),
+(3, 'Meena', 'meena@gmail.com');
+
+INSERT INTO orders VALUES
+(1, 1, 'Laptop', 60000, '2024-01-10'),
+(2, 1, 'Mouse', 500, '2024-01-15'),
+(3, 2, 'Keyboard', 1500, '2024-02-10'),
+(4, 3, 'Monitor', 12000, '2024-02-20');
